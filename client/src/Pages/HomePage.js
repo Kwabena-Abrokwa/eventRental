@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useState } from "react";
 
 const HomePage = () => {
-  return (
-    <div>HomePage</div>
-  )
-}
+	const [first, setfirst] = useState("second");
 
-export default HomePage
+	const hello = () => {
+		setfirst(true);
+	};
+
+	return <button>{first}</button>;
+};
+
+export default HomePage;
