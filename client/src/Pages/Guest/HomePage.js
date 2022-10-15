@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import MainLayout from "../../Components/Layouts/MainLayout";
 import Product from "../../Assets/img/product.png";
 import ProductCard from "../../Components/CardsComponents/ProductCard";
